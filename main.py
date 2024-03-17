@@ -7,7 +7,7 @@ def main():
     output_to_console(console_text)
     output_to_file(console_text, "data/console_output.txt")
 
-    #Input from file using built-in Python capabilities
+    #Input from file
     file_text = input_from_file("data/file_input.txt")
     output_to_console(file_text)
     output_to_file(file_text, "data/file_output.txt")
