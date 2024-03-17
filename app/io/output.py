@@ -7,7 +7,7 @@ def output_to_console(text):
     print(text)
 
 def output_to_file(text, filepath):
-    """Function to write text to a file using built-in Python capabilities.
+    """Function to write text to a file.
 
        Args:
             text (str): The text to be written to the file.
